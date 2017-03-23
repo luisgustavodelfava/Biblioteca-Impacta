@@ -8,7 +8,9 @@ Registrar devolução
 Notificar livros em atrasos
 Calcular multa
 Receber pagamento
-   
+
+------------------------------------------------------------------------------------------------------------------------------------
+
 Pós-Condição: Caso de uso: Cadastro do Cliente
 Pré-Condição
 Fluxo Básico: 
@@ -27,7 +29,7 @@ A1 – Remover cliente
 4.	Sistema remove cliente.
 
 A2 – Pesquisar cliente
-1.	Usuário solicita bando de dados do cliente
+1.	Usuário solicita banco de dados do cliente
 2.	Sistema apresenta banco de dados
 3.	Usuário pesquisa cliente
 4.	Sistema apresenta dados do cliente
@@ -40,20 +42,23 @@ A3 – Alterar cliente
 5.	Usuário realiza a alteração de dados
 6.	Fim de caso de uso
 
+------------------------------------------------------------------------------------------------------------------------------------
+
  Pós-Condição: Pesquisar livro
  Pré-Condição
  Fluxo Básico:
 
-B1 -
-1.	Usuário solicita banco de dados dos livros
-2.	Sistema apresenta banco de dados
-3.	Usuário pesquisa livro desejado
-4.	Sistema apresenta status dos livros
+B1 - Pesquisar livro
+1.	Usuário solicita formulário de pesquisa livros
+2.	Sistema exibe formulário de pesquisa
+3.	Usuário preenche formulário de pesquisa
+4.	Sistema exibe resultados obtídos 
 5.	Fim do caso de uso
 
+------------------------------------------------------------------------------------------------------------------------------------
 
 Pós-Condição: Reservar livro
- Pré-Condição
+Pré-Condição
 Fluxo Básico: 
 
 B2 - 
@@ -63,7 +68,7 @@ B2 -
 4.	Sistema salva informações no banco 
 5.	Fim do caso de uso
 
-
+Altera
 
 Pós-Condição: Consultar empréstimo
  Pré-Condição
