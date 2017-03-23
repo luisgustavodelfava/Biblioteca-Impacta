@@ -1,0 +1,117 @@
+Analisar as situações do empréstimo
+
+Cadastro do Cliente
+Pesquisar livro
+Reservar livro
+Consultar empréstimo
+Registrar devolução
+Notificar livros em atrasos
+Calcular multa
+Receber pagamento
+   
+Pós-Condição: Caso de uso: Cadastro do Cliente
+Pré-Condição
+Fluxo Básico: 
+B0 – Cadastra cliente
+1.	Usuário solicita formulário de cadastro
+2.	Sistema apresenta formulário
+3.	Usuário preenche informações
+4.	Sistema válida informações
+5.	Cadastro concluído.  
+6.	Fim do caso de uso
+
+A1 – Remover cliente
+1.	Usuário solicita banco de dados do cliente
+2.	Sistema apresenta banco de dados
+3.	Usuário solicita remoção do cliente desejado
+4.	Sistema remove cliente.
+
+A2 – Pesquisar cliente
+1.	Usuário solicita bando de dados do cliente
+2.	Sistema apresenta banco de dados
+3.	Usuário pesquisa cliente
+4.	Sistema apresenta dados do cliente
+
+ Pós-Condição: Pesquisar livro
+ Pré-Condição
+ Fluxo Básico:
+
+B1 -
+1.	Usuário solicita banco de dados dos livros
+2.	Sistema apresenta banco de dados
+3.	Usuário pesquisa livro desejado
+4.	Sistema apresenta status dos livros
+5.	Fim do caso de uso
+
+
+Pós-Condição: Reservar livro
+ Pré-Condição
+Fluxo Básico: 
+
+B2 - 
+1.	Usuário solicita sistema de reserva
+2.	Sistema apresente sistema de reserva
+3.	Usuário marca informações dos livros e do cliente que deseja reservar
+4.	Sistema salva informações no banco 
+5.	Fim do caso de uso
+
+
+
+Pós-Condição: Consultar empréstimo
+ Pré-Condição
+Fluxo Básico: 
+
+B3 - 
+1.	Usuário solicita sistema de reserva
+2.	Sistema apresenta dados das reservas
+3.	Usuário pesquisa cliente ou livros que reservaram
+4.	Sistema apresenta informações sobre reservas pesquisadas
+5.	Fim do caso de uso
+
+
+Pós-Condição: Registrar devolução
+ Pré-Condição
+Fluxo Básico: 
+
+B4 -
+1.	Usuário solicita sistema de reserva
+2.	Sistema apresenta sistema
+3.	Usuário marca empréstimo concluído 
+1.	Sistema conclui empréstimo 
+2.	Fim do caso de uso
+
+
+Pós-Condição: Notificar livros em atrasos
+ Pré-Condição
+Fluxo Básico: 
+
+B5 -
+1.	Usuário solicita sistema de cadastro
+2.	Sistema apresenta sistema de cadastro
+3.	Usuário enviar e-mail para cliente
+4.	Fim do caso de uso
+
+
+Pós-Condição: Calcular multa
+ Pré-Condição
+Fluxo Básico: 
+
+B6 - 
+1.	Usuário solicita sistema de reserva
+2.	Sistema apresenta sistema de reserva
+3.	Usuário procura cliente
+4.	Sistema apresenta atrasos do cliente
+5.	Usuário solicita preço da multa
+6.	Sistema calcular valor da multa
+7.	Fim do caso de uso
+
+Pós-Condição: Receber pagamento
+ Pré-Condição
+Fluxo Básico: 
+
+B7 - 
+1.	Usuário solicita sistema de pagamento
+2.	Sistema apresenta sistema de pagamento
+3.	Usuário solicita valor a ser pago
+4.	Sistema apresenta valor
+5.	Fim do caso de uso
